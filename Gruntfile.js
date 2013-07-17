@@ -1,4 +1,4 @@
-'use strict';
+use strict';
 var path = require('path');
 
 module.exports = function (grunt) {
@@ -24,7 +24,6 @@ module.exports = function (grunt) {
         });
         var data = this.data;
 
-        console.log(data);
         //merge options onto data, with data taking precedence
         data = _.merge(options, data);
         data.configFile = path.resolve(data.configFile);
