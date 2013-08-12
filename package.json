@@ -1,6 +1,6 @@
 {
   "name": "karma-spec-reporter-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Example for usage of karma-spec-reporter",
   "scripts": {
     "test": "grunt test"
@@ -10,11 +10,11 @@
   "devDependencies": {
     "grunt": "~0.4.1",
     "chai": "~1.6.0",
-    "karma": "0.9.4",
-    "karma-chrome-launcher": "0.0.1",
-    "karma-firefox-launcher": "0.0.1",
-    "karma-phantomjs-launcher": "0.0.1",
-    "karma-mocha": "0.0.1",
-    "karma-spec-reporter": "0.0.3"
+    "karma": "~0.10",
+    "karma-chrome-launcher": "~0.1",
+    "karma-firefox-launcher": "~0.1",
+    "karma-phantomjs-launcher": "~0.1",
+    "karma-mocha": "~0.1",
+    "karma-spec-reporter": "0.0.4"
   }
 }
