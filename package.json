@@ -15,6 +15,6 @@
     "karma-firefox-launcher": "~0.1",
     "karma-phantomjs-launcher": "~0.1",
     "karma-mocha": "~0.1",
-    "karma-spec-reporter": "0.0.4"
+    "karma-spec-reporter": "0.0.6"
   }
 }
