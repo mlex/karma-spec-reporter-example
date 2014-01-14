@@ -20,10 +20,10 @@ module.exports = function (grunt) {
     grunt.registerMultiTask('karma', 'run karma.', function() {
         var done = this.async();
         var options = this.options({
-            background: false
+            background: false,
+            colors: !grunt.option("no-color")
         });
         var data = this.data;
-
         //merge options onto data, with data taking precedence
         data = _.merge(options, data);
         data.configFile = path.resolve(data.configFile);
