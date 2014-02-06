@@ -1,24 +1,28 @@
 var expect = chai.expect;
 
-describe('array', function () {
+describe('Given an array', function () {
     'use strict';
 
-    describe('push', function () {
+    describe('the method push', function () {
 
         it('should add an element', function () {
             var arr = [];
-            arr.push("hallo")
-
+            arr.push("hallo");
             expect(arr.length).to.equal(1);
+            console.debug("TestLog-1-in-should-add-an-element");
+            expect(arr).to.contain("hallo");
+            console.log("TestLog-2-in-should-add-an-element");
         });
 
 
         it('should remove an element', function () {
             var arr = ["hello", "world"];
             var elem = arr.pop();
-            
+            console.debug("TestLog-1-in-remove-element");
             expect(elem).to.equal("world");
+            console.log("TestLog-2-in-remove-element");
             expect(arr.length).to.equal(1);
+            console.debug("TestLog-3-in-remove-element");
         });
 
         it('should do magic (this test will fail)', function () {
