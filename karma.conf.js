@@ -20,6 +20,13 @@ module.exports = function(config) {
     // CLI --reporters progress
     reporters : ['spec'],
 
+    // Uncomment these lines to test feature #14
+    //specReporter : {
+    //    suppressPassed: true,
+    //    suppressFailed: true,
+    //    suppressSkipped: true
+    //},
+
     // web server port
     // CLI --port 9876
     port : 9876,

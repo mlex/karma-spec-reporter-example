@@ -15,7 +15,7 @@ describe('Given an array', function () {
         });
 
 
-        it('should remove an element', function () {
+        it.skip('should remove an element (this test is skipped)', function () {
             var arr = ["hello", "world"];
             var elem = arr.pop();
             console.debug("TestLog-1-in-remove-element");
